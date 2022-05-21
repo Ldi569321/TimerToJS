@@ -8,6 +8,7 @@ body {
 }
 
 section {
+    font-family: 'Hahmlet', serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,40 +16,46 @@ section {
     background-color: #8b9dc3;
     padding: 50px 60px;
     border-radius: 10px;
-    width: 300px;
+    width: 40%;
+    height: 30vh;
 }
 
 .timer {
     display: flex;
     justify-content: center;
     background-color: #dfe3ee;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border-radius: 8px;
+    font-size: 3em;
 }
 
 section input {
+    font-family: 'Hahmlet', serif;
     background-color: #dfe3ee;
     border: 0;
-    padding: 5px 10px;
+    font-size: 2em;
+    padding: 10px 20px;
     border-radius: 4px;
-    margin: 0px 10px;
+    margin: 0px 50px;
     transition: 0.1s ease all;
 }
 
 section input:hover {
     border: 0;
-    padding: 5px 10px;
+    font-size: 2em;
+    padding: 10px 20px;
     border-radius: 4px;
-    margin: 0px 10px;
+    margin: 0px 50px;
     background-color: #b4b7c2;
     transition: 0.1s ease all;
 }
 
 section input:active {
     border: 0;
-    padding: 5px 10px;
+    font-size: 2em;
+    padding: 10px 20px;
     border-radius: 4px;
-    margin: 0px 10px;
+    margin: 0px 50px;
     background-color: #55575c;
     color: #dfe3ee;
     transition: 0.1s ease all;
